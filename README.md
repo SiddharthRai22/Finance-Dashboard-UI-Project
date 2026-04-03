@@ -12,7 +12,7 @@ This project was developed as part of a frontend screening assignment, focusing 
 
 💻 GitHub Repository
 
-👉 [Add your GitHub repo link here]
+👉 [(https://github.com/SiddharthRai22/Finance-Dashboard-UI-Project)]
 
 ---
 
