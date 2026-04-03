@@ -87,14 +87,6 @@ This project was developed as part of a frontend screening assignment, focusing 
 
 ---
 
-✨ Optional Enhancements Implemented
-
-- 🌙 Dark mode support (if you add it)
-- 💾 Local storage persistence (if you add it)
-- ⚡ Smooth animations (if you add Framer Motion)
-
----
-
 🛠️ Tech Stack
 
 - Frontend: React (Vite)
