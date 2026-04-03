@@ -8,7 +8,7 @@ This project was developed as part of a frontend screening assignment, focusing 
 
 🚀 Live Demo
 
-👉 [https://finance-dashboard-ui-project.onrender.com/]
+👉 [https://finance-dashboard-ui-project.onrender.com]
 
 💻 GitHub Repository
 
