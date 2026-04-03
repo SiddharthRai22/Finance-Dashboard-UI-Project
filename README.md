@@ -120,17 +120,20 @@ src/
 
 ⚙️ Installation & Setup
 
-# Clone the repository
-git clone <https://github.com/SiddharthRai22/Finance-Dashboard-UI-Project>
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-# Navigate to project folder
-cd finance-dashboard
+2. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
 
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
+3. **Build for Production**:
+   ```bash
+   npm run build
+   ```
 
 ---
 
