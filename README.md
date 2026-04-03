@@ -121,7 +121,7 @@ src/
 ⚙️ Installation & Setup
 
 # Clone the repository
-git clone <your-repo-link>
+git clone <https://github.com/SiddharthRai22/Finance-Dashboard-UI-Project>
 
 # Navigate to project folder
 cd finance-dashboard
@@ -154,31 +154,6 @@ Key focus areas:
 - Meaningful data representation
 
 ---
-
-📸 Screenshots
-
-(Add screenshots here)
-
----
-
-📌 Future Improvements
-
-- Backend integration (Node.js / Express)
-- Authentication system (JWT)
-- Real-time data updates
-- Advanced analytics & reporting
-
----
-
-👨‍💻 Author
-
-Siddharth Kumar Rai
-
-- LinkedIn: [Add link]
-- GitHub: [Add link]
-
----
-
 📄 License
 
 This project is for educational and evaluation purposes.
