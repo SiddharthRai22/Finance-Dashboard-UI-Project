@@ -1,65 +1,184 @@
-# Modern Finance Dashboard
+💰 Finance Dashboard UI
 
-A sleek, responsive financial dashboard built with React and Vite. This application allows users to track their income and expenses, visualize financial trends, and manage transactions with role-based access control.
+A modern, responsive Finance Dashboard built to help users track financial activity, analyze spending patterns, and manage transactions efficiently.
 
-## 🚀 Features
+This project was developed as part of a frontend screening assignment, focusing on UI/UX design, state management, and clean component architecture.
 
-### 1. Dashboard Overview
-- **Stat Cards**: Real-time summary of Total Balance, Monthly Income, Monthly Expenses, and Savings Rate.
-- **Revenue Analytics**: Interactive area chart comparing revenue vs. expenses over time.
-- **Quick Actions**: Fast access to common tasks like sending money, adding funds, and generating reports.
+---
 
-### 2. Transaction Management
-- **Search & Filter**: Search transactions by name or category. Filter by transaction type (Income/Expense).
-- **Sorting**: Sort transactions by date (newest first) or by amount.
-- **Admin Controls**: Admins can add new transactions via a modal form and delete existing ones.
-- **Empty States**: Graceful handling of empty transaction lists and "no results found" scenarios with clear calls to action.
+🚀 Live Demo
 
-### 3. Financial Insights
-- **Top Spending**: Automatically identifies and displays the category with the highest expenditure.
-- **Income vs. Expenses**: Visual comparison of total income and total expenses.
-- **Smart Summaries**: Dynamic text insights based on your spending habits.
+👉 [Add your deployed link here]
 
-### 4. Role-Based Access Control (RBAC)
-- **Admin Role**: Full access to view, add, and delete transactions.
-- **Viewer Role**: Read-only access. Actions like "Add Funds" are disabled, and management tools are hidden.
+💻 GitHub Repository
 
-## 🛠️ Tech Stack
+👉 [Add your GitHub repo link here]
 
-- **Frontend Framework**: React 19
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS 4.0
-- **Animations**: Motion (formerly Framer Motion)
-- **Icons**: Lucide React
-- **Charts**: Recharts
-- **State Management**: React Context API + Hooks
+---
 
-## 📦 Installation & Running
+📌 Features
 
-1. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
+📊 Dashboard Overview
 
-2. **Run Development Server**:
-   ```bash
-   npm run dev
-   ```
+- Displays key financial metrics:
+  - Total Balance
+  - Monthly Income
+  - Monthly Expenses
+  - Savings Rate
+- Time-based visualization (Revenue vs Expenses trend)
+- Category-based visualization (Spending breakdown)
 
-3. **Build for Production**:
-   ```bash
-   npm run build
-   ```
+---
 
-## 🧩 Project Structure
+💳 Transactions Management
 
-- `src/context/DashboardContext.jsx`: Centralized state management for transactions, roles, and filters.
-- `src/components/`: Reusable UI components (Sidebar, Header, StatCards, RevenueChart, QuickActions, Transactions, Insights).
-- `src/lib/utils.js`: Utility functions for Tailwind class merging.
-- `src/index.css`: Global styles and custom animations.
+- View detailed list of transactions:
+  - Date
+  - Amount
+  - Category
+  - Type (Income / Expense)
+- Features:
+  - 🔍 Search transactions
+  - 🎯 Filter by type (Income / Expense)
+  - ↕️ Sort by date or amount
 
-## 🛡️ Edge Case Handling
+---
 
-- **Invalid Inputs**: The "Add Transaction" form validates that the amount is a positive number.
-- **Empty Data**: Specific UI states for when the dashboard has no data or when filters return no results.
-- **Responsive Design**: Fully optimized for mobile, tablet, and desktop screens.
+👥 Role-Based UI (Frontend Simulation)
+
+- Viewer
+  
+  - Can only view financial data
+
+- Admin
+  
+  - Can add, edit, and delete transactions
+
+- Role switching implemented using a dropdown for demonstration purposes
+
+---
+
+📈 Insights Section
+
+- Displays useful financial insights:
+  - Highest spending category
+  - Monthly expense comparison
+  - Key observations derived from transaction data
+
+---
+
+🧠 State Management
+
+- Centralized state handling using:
+  - React Context API (or Zustand if you upgrade)
+- Manages:
+  - Transactions data
+  - Filters and search
+  - User role
+
+---
+
+🎨 UI/UX Highlights
+
+- Clean and modern interface
+- Fully responsive design (mobile, tablet, desktop)
+- Smooth user interactions
+- Handles empty states gracefully
+
+---
+
+✨ Optional Enhancements Implemented
+
+- 🌙 Dark mode support (if you add it)
+- 💾 Local storage persistence (if you add it)
+- ⚡ Smooth animations (if you add Framer Motion)
+
+---
+
+🛠️ Tech Stack
+
+- Frontend: React (Vite)
+- Styling: Tailwind CSS
+- Charts: Recharts / Chart.js
+- State Management: Context API / Zustand
+- Icons: Lucide / React Icons
+
+---
+
+📂 Project Structure
+
+src/
+ ├── components/
+ ├── pages/
+ ├── store/
+ ├── data/
+ ├── utils/
+ ├── App.jsx
+ └── main.jsx
+
+---
+
+⚙️ Installation & Setup
+
+# Clone the repository
+git clone <your-repo-link>
+
+# Navigate to project folder
+cd finance-dashboard
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+---
+
+🧪 Assumptions
+
+- Data is mocked and handled on the frontend
+- Role-based access is simulated (no backend authentication)
+- Focus is on UI/UX and frontend architecture rather than backend integration
+
+---
+
+🎯 Approach
+
+The goal was to build a simple yet intuitive dashboard that reflects real-world financial tracking systems.
+
+Key focus areas:
+
+- Clean component structure
+- Scalable state management
+- User-friendly design
+- Meaningful data representation
+
+---
+
+📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+📌 Future Improvements
+
+- Backend integration (Node.js / Express)
+- Authentication system (JWT)
+- Real-time data updates
+- Advanced analytics & reporting
+
+---
+
+👨‍💻 Author
+
+Siddharth Kumar Rai
+
+- LinkedIn: [Add link]
+- GitHub: [Add link]
+
+---
+
+📄 License
+
+This project is for educational and evaluation purposes.
