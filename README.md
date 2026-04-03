@@ -8,11 +8,11 @@ This project was developed as part of a frontend screening assignment, focusing 
 
 🚀 Live Demo
 
-👉 [Add your deployed link here]
+👉 [https://finance-dashboard-ui-project.onrender.com/]
 
 💻 GitHub Repository
 
-👉 [(https://github.com/SiddharthRai22/Finance-Dashboard-UI-Project)]
+👉 [https://github.com/SiddharthRai22/Finance-Dashboard-UI-Project]
 
 ---
 
